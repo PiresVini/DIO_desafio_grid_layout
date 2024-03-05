@@ -1,0 +1,166 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    width: 82%;
+    border: none
+}
+img {
+    margin: 1px;
+}
+div {
+    display: inline;
+    width: 200px;
+}
+
+#botao-menu {
+    position: relative;
+    border: none;
+    background-color: white;
+    top: 14px;
+    left: 15px;
+}
+
+#logo {
+    position: relative;
+    align-self: flex-end;
+    top: -30px;
+    left: 30px;
+}
+
+#campo-busca {
+    position: relative;
+    width: 348px;
+    height: 40px;
+    top: 5px;
+    left: -176px;
+    border: solid 1px #CCCCCC;
+    border-radius: 2%;
+}
+
+#botao-busca {
+    position: relative;
+    border: solid 1px #CCCCCC;
+    width: 57px;
+    height: 42px;
+    top: -38px;
+    left: 180px;
+    background-color: #F8F8F8;
+    border-radius: 2%;
+}
+
+#img-video {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: 2px;
+    left: -10px;
+}
+#img-sino {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: 2px;
+    top: -48px;
+    left: 45px;
+}
+#img-avatar {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin: 2px;
+    left: 100px;
+    top: -105px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#img-side {
+    position: relative;
+    top: 5px;
+    width: 24px;
+    height: 24px;
+}
+#side-link {
+    position: relative;
+    top: 12px;
+    left: 10px;
+}
+.side-item {
+    display: flex;
+    background-color: white;
+    border: none;
+    width: 200pxpx;
+    font-weight: 16px;
+    font-family: "roboto";
+    font-size: 14px;
+    padding: 6px;
+}
+nav {
+    position: relative;
+    top: 20px;
+    display: grid;
+    grid: repeat(9, 50px) / 1fr;
+    position: relative;
+    height: 968px;
+    width: 218px;
+    justify-content: start;
+    gap: 10px;
+    
+}
+main {
+    position: absolute;
+    background-color: #F9F9F9;
+    top: 100px;
+    left: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 63%;
+    gap: 16px;
+    margin: 16px;
+    grid: repeat(3, 265px) / repeat(4, 285px)
+}
+#thumb {
+    height: 140px;
+    width: 250px;
+    grid-area: imagem;
+}
+#Channel-logo {
+    position: relative;
+    top: 6px;
+    left: 8px;
+    height: 42px;
+    width: 42px;
+    grid-area: logo;
+}
+.thumbnail {
+    position: relative;
+    display: grid;
+    grid-template: "imagem imagem" 1fr
+                   "logo titulo" 0.5fr 
+                   "descri descri" 0.5fr / 0.3fr 1fr;
+    width: 282px;
+    height: 262px;
+    
+}
+h2 {
+    font-family: "roboto";
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    grid-area: titulo;
+    
+}
+#wiens {
+    position: relative;
+    top: -20px;
+    left: 65px;
+    grid-area: descri;
+    font-family: "roboto";
+    font-size: 14px;
+    color: #515151;
+    word-break: normal;
+}
